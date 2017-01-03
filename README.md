@@ -1,11 +1,11 @@
 # Nancy-VA--MacOS
 Nancy: The Virtual Assistant (For MacOS)
 * [Youtube Playlist](https://www.youtube.com/watch?v=a3FKjVu_iCg&list=PLgye9ZR9-GhhKttmlMajOvYIXtHs-__Xq)
+
 ## Team Name
 ```
 Errorists
 ```
-
 ## Team Members
 * [Azhar Khan](https://github.com/azharhappy)
 * [Raghav Maheshwari](https://github.com/imnobody0396) 
