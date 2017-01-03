@@ -1,5 +1,6 @@
 # Nancy-VA--MacOS
 Nancy: The Virtual Assistant (For MacOS)
+* [Youtube Playlist](https://www.youtube.com/watch?v=a3FKjVu_iCg&list=PLgye9ZR9-GhhKttmlMajOvYIXtHs-__Xq)
 ## Team Name
 ```
 Errorists
@@ -7,6 +8,7 @@ Errorists
 ## Team Members
 * [Azhar Khan](https://github.com/azharhappy)
 * [Raghav Maheshwari](https://github.com/imnobody0396) 
+* [Rustam Ali](https://github.com/Rustamjadara)
 
 ## Project Client
 * [Youstart Labs](http://youstartlabs.in)
