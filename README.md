@@ -55,18 +55,21 @@ General computer user( like student, grandparents, businessman etc)
 ### Advance Features
 * ML
 * Chat Bot
+
 ## Non-Functional Requirements: 
 * Working Internet Connection (minimum 3G)
 * Microphone
 * Cross Platform Availability
 * Installed Python 3.x binaries
 * Speakers 
+
 ## Business Rules:  
 ```
 As the project will we using machine learning for enhacing user experience, following rule must be followed:
 ```
 * User should be aware of collected logs and data
 * Collected logs and data must not be shared with any third party other than the VA itself.
+
 ### Summary Milestone Schedule:
 ```
 Sprint Backlog 1 will be completed by October 2016
