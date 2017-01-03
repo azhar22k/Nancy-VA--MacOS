@@ -5,6 +5,7 @@ Nancy: The Virtual Assistant (For MacOS)
 ```
 Errorists
 ```
+
 ## Team Members
 * [Azhar Khan](https://github.com/azharhappy)
 * [Raghav Maheshwari](https://github.com/imnobody0396) 
