@@ -1,0 +1,11 @@
+wikipedia==1.4.0
+wolframalpha==2.4
+SpeechRecognition==3.4.6
+pyperclip==1.5.27
+gTTS==1.1.6
+google==1.9.1
+pytube==6.1.11
+PyAudio==0.2.9
+lxml==3.7.0
+speedtest-cli==1.0.0
+beautifulsoup4==4.4.1
