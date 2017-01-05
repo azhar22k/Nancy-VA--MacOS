@@ -56,6 +56,11 @@ def main():
                 openMaps(Input)
                 speak("Here It is...")
                 continue
+        #Command for downloading lyrics
+        if match(r"^download lyrics .*$",Input):
+            from lyrics import lyrics_down
+            lyrics_down(Input)
+            continue
         #if match(r"^open $",Input):
          #   continue
         #Commamnd for browsing a website
