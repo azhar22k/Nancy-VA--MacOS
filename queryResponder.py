@@ -49,6 +49,13 @@ def search(Input):
         speak('There you go')
         return
 
+    #Command to open a file
+    if match(r"^open file .*$",Input):
+        Input=Input.replace("open file ","")
+        from fInderAndAppControl import openFile
+        openFile(Input)
+        return
+
     # Commamnd for browsing a website
     if match(r"^browse .*$", Input):
         from webHandler import browseUrl
