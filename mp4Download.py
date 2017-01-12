@@ -1,4 +1,4 @@
-import requests, bs4, os
+from os import chdir
 from pytube import YouTube
 from pprint import pprint
 from audioOutput import  speak
@@ -7,7 +7,7 @@ from google import lucky
 
 
 def vid_download(link):
-    os.chdir(homeDir+'/Downloads/')
+    chdir(homeDir+'/Downloads/')
     yt = YouTube(link)
 
     pprint(yt.get_videos())

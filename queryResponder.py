@@ -1,6 +1,7 @@
 from notify import notify
 from re import match,sub
 from audioOutput import speak,speakWiki
+from _thread import start_new_thread
 def search(Input):
     # no data received
     if Input == "":
@@ -83,14 +84,16 @@ def search(Input):
     if match(r"^download (audio)|(song) .*$", Input):
         from mp3Download import page_link
         Input = sub(r"download audio|song|mp3 ", '', Input)
-        page_link(Input)
+        #page_link(Input)
+        start_new_thread(page_link,(Input,))
         return
 
     # Command to download mp4 video
     if match(r"^download video .*$", Input):
         from mp4Download import youtube_link
         Input = sub(r"download video ", '', Input)
-        youtube_link(Input)
+        #youtube_link(Input)
+        start_new_thread(youtube_link,(Input,))
         return
 
     # Command to read it aloud
