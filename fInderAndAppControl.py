@@ -1,14 +1,14 @@
 from subprocess import call,getoutput
 from audioOutput import speak
+from _thread import start_new_thread
 
 def openApp(appName):
-    call(['open','-a',appName])
+    start_new_thread(getoutput,('open -a '+appName,))
 
 def openFile(fileName):
     speak("Fetching results, please wait")
-    fileWithPath=getoutput("find $HOME -type f -iname '*"+fileName+"*'|head -1")
+    fileWithPath=getoutput("find $HOME -type f -iname '*"+fileName+"*' 2> /dev/null|head -1 ")
     print(fileWithPath)
-    if '.mp3 ' in fileWithPath:
-        call(['mpg123',fileWithPath])
-    else:
-        call(['open',fileWithPath])
+    getoutput("open '"+fileWithPath+"'")
+
+#openFile(input())
