@@ -2,6 +2,7 @@ from notify import notify
 from re import match,sub
 from audioOutput import speak,speakWiki
 from _thread import start_new_thread
+from subprocess import getoutput
 def search(Input):
     # no data received
     if Input == "":
@@ -12,6 +13,12 @@ def search(Input):
     if Input in ['quit', 'terminate']:
         speak("Bye")
         Input = 'terminate'
+        return
+
+    #Command to lock PC
+    if Input in ['lock','lock my mac','lock my pc']:
+        speak("See you soon")
+        getoutput("/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend")
         return
 
     # Command for Self Intoduction
@@ -37,13 +44,13 @@ def search(Input):
         return
 
     # Command for downloading lyrics
-    if match(r"^download lyrics .*$", Input):
+    if match(r"^download lyrics.*$", Input):
         from lyrics import lyrics_down
         lyrics_down(Input)
         return
 
     #Command to open Applications
-    if match(r"^execute .*$",Input):
+    if match(r"^execute.*$",Input):
         from fInderAndAppControl import openApp
         Input=Input.replace("execute ","")
         openApp(Input)
@@ -51,14 +58,28 @@ def search(Input):
         return
 
     #Command to open a file
-    if match(r"^open file .*$",Input):
+    if match(r"^open file.*$",Input):
         Input=Input.replace("open file ","")
         from fInderAndAppControl import openFile
         openFile(Input)
         return
 
+    #Command to play a song
+    if match(r"^play song.*$",Input):
+        Input=Input.replace("play song ","")
+        from fInderAndAppControl import openFile
+        openFile(Input,direc="Music")
+        return
+
+    #Command to play video
+    if match(r"^play video.*$",Input):
+        Input=Input.replace("play video ","")
+        from fInderAndAppControl import openFile
+        openFile(Input,direc="Movies")
+        return
+
     # Commamnd for browsing a website
-    if match(r"^browse .*$", Input):
+    if match(r"^browse.*$", Input):
         from webHandler import browseUrl
         Input = Input.replace("browse ", " ")
         browseUrl(Input)
@@ -81,7 +102,7 @@ def search(Input):
         return
 
     # Command to download mp3 song
-    if match(r"^download (audio)|(song) .*$", Input):
+    if match(r"^download (audio)|(song).*$", Input):
         from mp3Download import page_link
         Input = sub(r"download audio|song|mp3 ", '', Input)
         #page_link(Input)
@@ -89,7 +110,7 @@ def search(Input):
         return
 
     # Command to download mp4 video
-    if match(r"^download video .*$", Input):
+    if match(r"^download video.*$", Input):
         from mp4Download import youtube_link
         Input = sub(r"download video ", '', Input)
         #youtube_link(Input)
