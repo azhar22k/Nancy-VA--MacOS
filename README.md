@@ -1,19 +1,16 @@
 # Nancy-VA--MacOS
 Nancy: The Virtual Assistant (For MacOS)
 * [Youtube Playlist](https://www.youtube.com/watch?v=a3FKjVu_iCg&list=PLgye9ZR9-GhhKttmlMajOvYIXtHs-__Xq)
-
 ## Team Name
 ```
 Errorists
 ```
 ## Team Members
 * [Azhar Khan](https://github.com/azharhappy)
-* [Raghav Maheshwari](https://github.com/imnobody0396) 
+* [Raghav Maheshwari](https://github.com/imnobody0396)
 * [Rustam Ali](https://github.com/Rustamjadara)
-
 ## Project Client
 * [Youstart Labs](http://youstartlabs.in)
-
 ## Project Description
 ```
 Now-a-days, no doubt there are many virtual assistants available in market but none of them are cross platform 
@@ -40,7 +37,6 @@ General computer user( like student, grandparents, businessman etc)
 * Toss a coin, throw a die
 * Speak date/time
 * To Do List
-
 ### OnLine
 * Weather
 * Dictionary
@@ -54,25 +50,21 @@ General computer user( like student, grandparents, businessman etc)
 * Facts/News /Score/ Jokes/ WhatsApp status
 * Google Top 5 results
 * Forbes top 10 list
-
 ### Advance Features
 * ML
 * Chat Bot
-
 ## Non-Functional Requirements: 
 * Working Internet Connection (minimum 3G)
 * Microphone
 * Cross Platform Availability
 * Installed Python 3.x binaries
 * Speakers 
-
 ## Business Rules:  
 ```
 As the project will we using machine learning for enhacing user experience, following rule must be followed:
 ```
 * User should be aware of collected logs and data
 * Collected logs and data must not be shared with any third party other than the VA itself.
-
 ### Summary Milestone Schedule:
 ```
 Sprint Backlog 1 will be completed by October 2016
@@ -80,8 +72,11 @@ Sprint Backlog 2 will be completed by December 2016
 Sprint Backlog 3 will be completed by Feburary 2017
 Sprint Backlog 4 will be completed by March 2017
 ```
-
 ### Assumptions and Constraints:
 * User is familiar with normal computer handling
 * User have basic knowledge of web
 * User have working internet connection to take advantage of online user
+#How to use
+* Execute the commands written in NonPythonRequirements.txt
+* Then install all python packages from requirements.txt
+##
