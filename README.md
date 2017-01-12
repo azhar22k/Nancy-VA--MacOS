@@ -76,7 +76,9 @@ Sprint Backlog 4 will be completed by March 2017
 * User is familiar with normal computer handling
 * User have basic knowledge of web
 * User have working internet connection to take advantage of online user
+
 #How to use
 * Execute the commands written in NonPythonRequirements.txt
 * Then install all python packages from requirements.txt
+
 ##
