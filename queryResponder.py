@@ -21,6 +21,18 @@ def search(Input):
         getoutput("/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend")
         return
 
+    #Command to reboot
+    if Input in ['reboot', 'reboot my mac', 'reboot my pc']:
+        speak("See you soon")
+        getoutput("osascript -e 'tell application \"System Events\" to restart'")
+        return
+
+    # Command to shutdown
+    if Input in ['shutdown', 'shutdown my mac', 'shutdown my pc']:
+        speak("See you soon")
+        getoutput("osascript -e 'tell application \"System Events\" to shut down'")
+        return
+
     # Command for Self Intoduction
     if Input in ["who are you", "introduce yourself", "describe yourself"]:
         answer = 'I am Nancy, your personal assistant.'
