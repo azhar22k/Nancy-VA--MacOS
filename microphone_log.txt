@@ -132,3 +132,6 @@
 2017-01-12 07:07:38.357834 download video
 2017-01-13 04:20:06.535630 who is Narendra Modi
 2017-01-13 04:21:35.288085 time in Japan
+2017-01-13 05:45:24.553030 open folder Nancy
+2017-01-13 05:45:50.425030 open folder movie
+2017-01-13 05:46:09.880831 one folder

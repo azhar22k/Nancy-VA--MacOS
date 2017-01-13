@@ -76,6 +76,13 @@ def search(Input):
         openFile(Input)
         return
 
+    #Command to open a directory
+    if match(r"^open folder.*$",Input):
+        Input=Input.replace("open folder ","")
+        from  fInderAndAppControl import openFolder
+        openFolder(Input)
+        return
+
     #Command to play a song
     if match(r"^play song.*$",Input):
         Input=Input.replace("play song ","")

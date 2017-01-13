@@ -133,7 +133,7 @@ open maps 'place name'
 open maps Taj Mahal
 Open maps las vegas
 Note: One can also copy an addres on clipboard and give command
-opn maps
+open maps
 ```
 ###Command for downloading lyrics of hollywood songs
 ```
@@ -150,6 +150,11 @@ execute itunes
 ```
 open file 'file name'
 open file mywork.txt
+```
+###COmmand to open a folder
+```
+open folder 'folder name'
+open folder downloads
 ```
 ###Command to play a song
 ```
