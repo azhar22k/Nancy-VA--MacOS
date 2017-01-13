@@ -175,3 +175,30 @@ throw a dice
 ```
 toss a coin
 ```
+###Command to bollywood mp3 song
+```
+download audio 'song name'
+download audio zaalima raees
+```
+###Command to try to download a youtube video
+```
+download video 'video name'
+download video nancy the virtual assistant
+```
+###Command to read out selected and copied text
+```
+read out
+speak out loud
+```
+###Other Random stuff
+```
+define 'object name'
+define computer
+
+current temeprature
+
+time in tokyo
+
+who is albert einstien
+who is the prime minister of india
+```
