@@ -129,14 +129,49 @@ who is your owner
 ```
 ###Command to open maps
 ```
+open maps 'place name'
 open maps Taj Mahal
 Open maps las vegas
 Note: One can also copy an addres on clipboard and give command
 opn maps
 ```
-###Command for downloading lyrics for hollywood songs
+###Command for downloading lyrics of hollywood songs
 ```
-download lyrics song name
+download lyrics 'song name'
 download lyrics let it go
 ```
-###
+###Command to open applications
+```
+execute 'application name'
+execute google chrome
+execute itunes
+```
+###Command to open a file
+```
+open file 'file name'
+open file mywork.txt
+```
+###Command to play a song
+```
+play song 'song name'
+play song Let it go
+```
+###Command to play video
+```
+play video 'video name'
+play video demo
+```
+###Command for browsing a website
+```
+browse 'sitename or url'
+browse facebook
+browse stackoverflow.com
+```
+###Command to throw a dice
+```
+throw a dice
+```
+###Command to toss a coin
+```
+toss a coin
+```
