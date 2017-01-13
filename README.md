@@ -115,3 +115,28 @@ reboot
 reboot my mac
 reboot my pc
 ```
+###Command to shutdown pc
+```
+shutdown
+shutdown my mac
+shutdown my pc
+```
+###Command for owner information
+```
+who is your master
+who created you
+who is your owner
+```
+###Command to open maps
+```
+open maps Taj Mahal
+Open maps las vegas
+Note: One can also copy an addres on clipboard and give command
+opn maps
+```
+###Command for downloading lyrics for hollywood songs
+```
+download lyrics song name
+download lyrics let it go
+```
+###
