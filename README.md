@@ -98,3 +98,20 @@ describe yourself
 introduce yourself
 who are you
 ```
+###Command for quiting
+```
+quit
+terminate
+```
+###Command to lock pc
+```
+lock
+lock my mac
+lock my pc
+```
+###Command to reboot pc
+```
+reboot
+reboot my mac
+reboot my pc
+```
