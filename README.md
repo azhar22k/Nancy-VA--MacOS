@@ -92,4 +92,9 @@ Sprint Backlog 4 will be completed by March 2017
 * Execute the commands written in NonPythonRequirements.txt
 * Then install all python packages from requirements.txt
 
-##
+###Command for description
+```
+describe yourself
+introduce yourself
+who are you
+```
