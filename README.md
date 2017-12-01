@@ -16,25 +16,25 @@ Errorists
 
 ## Project Description
 ```
-Now-a-days, no doubt there are many virtual assistants available in market but none of them are cross platform 
-and open source which limits their capabilities and scope. Nancy will be a python powered virtual assistant to 
-be available cross platform.Nancy reduces work load and help you with your basic day to day computer based tasks 
+Now-a-days, no doubt there are many virtual assistants available in market but none of them are cross platform
+and open source which limits their capabilities and scope. Nancy will be a python powered virtual assistant to
+be available cross platform.Nancy reduces work load and help you with your basic day to day computer based tasks
 by automating them and reducing human efforts.It is a voice controlled VA which automates the boring stuff as it
-mingles with your hard drive and gives the user facility of working with files vocally.User can work with their 
-machine both offline & online without getting their fingers on keyboard.   Users can get movie ratings, 
+mingles with your hard drive and gives the user facility of working with files vocally.User can work with their
+machine both offline & online without getting their fingers on keyboard.   Users can get movie ratings,
 cricket scores just by  a voice command and much more. Nancy will also be using machine learning for humanly
-communication with the user.
+communication with the user. 
 ```
 
 ### Users
 ```
 General computer user( like student, grandparents, businessman etc)
 ```
-## Functional Requirements 
+## Functional Requirements
 
 ### OffLine
 * Gui for interface initiation
-* Dictionary 
+* Dictionary
 * Nautilus/Finder/Explorer Control
 * Basic Maths
 * Open apps
@@ -61,12 +61,12 @@ General computer user( like student, grandparents, businessman etc)
 * ML
 * Chat Bot
 
-## Non-Functional Requirements: 
+## Non-Functional Requirements:
 * Working Internet Connection (minimum 3G)
 * Microphone
 * Cross Platform Availability
 * Installed Python 3.x binaries
-* Speakers 
+* Speakers
 
 ## Business Rules:  
 ```
