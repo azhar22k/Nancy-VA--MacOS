@@ -7,7 +7,7 @@ Nancy: The Virtual Assistant (For MacOS)
 Errorists
 ```
 ## Team Members
-* [Azhar Khan](https://github.com/azharhappy)
+* [Azhar Khan](https://github.com/itz-azhar)
 * [Raghav Maheshwari](https://github.com/imnobody0396)
 * [Rustam Ali](https://github.com/Rustamjadara)
 
@@ -23,7 +23,7 @@ by automating them and reducing human efforts.It is a voice controlled VA which 
 mingles with your hard drive and gives the user facility of working with files vocally.User can work with their
 machine both offline & online without getting their fingers on keyboard.   Users can get movie ratings,
 cricket scores just by  a voice command and much more. Nancy will also be using machine learning for humanly
-communication with the user. 
+communication with the user.
 ```
 
 ### Users
